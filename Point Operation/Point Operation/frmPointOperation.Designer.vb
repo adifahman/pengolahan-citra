@@ -35,6 +35,14 @@ Partial Class frmPointOperation
         Me.tbBW2 = New System.Windows.Forms.TabPage()
         Me.btnBW2 = New System.Windows.Forms.Button()
         Me.pbBW2 = New System.Windows.Forms.PictureBox()
+        Me.tbBrightness = New System.Windows.Forms.TabPage()
+        Me.txtBrightness = New System.Windows.Forms.TextBox()
+        Me.barBrightness = New System.Windows.Forms.TrackBar()
+        Me.btnBrightness = New System.Windows.Forms.Button()
+        Me.pbBrightness = New System.Windows.Forms.PictureBox()
+        Me.tbContrast = New System.Windows.Forms.TabPage()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.dlgBrowse = New System.Windows.Forms.OpenFileDialog()
         Me.tcPointOP.SuspendLayout()
         Me.tabOrigin.SuspendLayout()
@@ -45,6 +53,11 @@ Partial Class frmPointOperation
         CType(Me.pbBW1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tbBW2.SuspendLayout()
         CType(Me.pbBW2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.tbBrightness.SuspendLayout()
+        CType(Me.barBrightness, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbBrightness, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.tbContrast.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'tcPointOP
@@ -53,6 +66,8 @@ Partial Class frmPointOperation
         Me.tcPointOP.Controls.Add(Me.tabGrayscale)
         Me.tcPointOP.Controls.Add(Me.tbBW1)
         Me.tcPointOP.Controls.Add(Me.tbBW2)
+        Me.tcPointOP.Controls.Add(Me.tbBrightness)
+        Me.tcPointOP.Controls.Add(Me.tbContrast)
         Me.tcPointOP.Location = New System.Drawing.Point(12, 12)
         Me.tcPointOP.Name = "tcPointOP"
         Me.tcPointOP.SelectedIndex = 0
@@ -177,6 +192,85 @@ Partial Class frmPointOperation
         Me.pbBW2.TabIndex = 5
         Me.pbBW2.TabStop = False
         '
+        'tbBrightness
+        '
+        Me.tbBrightness.Controls.Add(Me.txtBrightness)
+        Me.tbBrightness.Controls.Add(Me.barBrightness)
+        Me.tbBrightness.Controls.Add(Me.btnBrightness)
+        Me.tbBrightness.Controls.Add(Me.pbBrightness)
+        Me.tbBrightness.Location = New System.Drawing.Point(4, 25)
+        Me.tbBrightness.Name = "tbBrightness"
+        Me.tbBrightness.Size = New System.Drawing.Size(950, 600)
+        Me.tbBrightness.TabIndex = 4
+        Me.tbBrightness.Text = "Brightness"
+        Me.tbBrightness.UseVisualStyleBackColor = True
+        '
+        'txtBrightness
+        '
+        Me.txtBrightness.Location = New System.Drawing.Point(823, 563)
+        Me.txtBrightness.Name = "txtBrightness"
+        Me.txtBrightness.Size = New System.Drawing.Size(40, 22)
+        Me.txtBrightness.TabIndex = 11
+        Me.txtBrightness.Text = "0"
+        '
+        'barBrightness
+        '
+        Me.barBrightness.BackColor = System.Drawing.Color.White
+        Me.barBrightness.Location = New System.Drawing.Point(6, 563)
+        Me.barBrightness.Maximum = 255
+        Me.barBrightness.Minimum = -255
+        Me.barBrightness.Name = "barBrightness"
+        Me.barBrightness.Size = New System.Drawing.Size(811, 56)
+        Me.barBrightness.TabIndex = 10
+        Me.barBrightness.TickStyle = System.Windows.Forms.TickStyle.None
+        '
+        'btnBrightness
+        '
+        Me.btnBrightness.Location = New System.Drawing.Point(869, 563)
+        Me.btnBrightness.Name = "btnBrightness"
+        Me.btnBrightness.Size = New System.Drawing.Size(75, 23)
+        Me.btnBrightness.TabIndex = 8
+        Me.btnBrightness.Text = "Proses"
+        Me.btnBrightness.UseVisualStyleBackColor = True
+        '
+        'pbBrightness
+        '
+        Me.pbBrightness.Location = New System.Drawing.Point(6, 6)
+        Me.pbBrightness.Name = "pbBrightness"
+        Me.pbBrightness.Size = New System.Drawing.Size(938, 551)
+        Me.pbBrightness.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pbBrightness.TabIndex = 7
+        Me.pbBrightness.TabStop = False
+        '
+        'tbContrast
+        '
+        Me.tbContrast.Controls.Add(Me.Button2)
+        Me.tbContrast.Controls.Add(Me.PictureBox2)
+        Me.tbContrast.Location = New System.Drawing.Point(4, 25)
+        Me.tbContrast.Name = "tbContrast"
+        Me.tbContrast.Size = New System.Drawing.Size(950, 600)
+        Me.tbContrast.TabIndex = 5
+        Me.tbContrast.Text = "Contrast"
+        Me.tbContrast.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(869, 563)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 8
+        Me.Button2.Text = "Proses"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Location = New System.Drawing.Point(6, 6)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(938, 551)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 7
+        Me.PictureBox2.TabStop = False
+        '
         'dlgBrowse
         '
         Me.dlgBrowse.FileName = "OpenFileDialog1"
@@ -200,6 +294,12 @@ Partial Class frmPointOperation
         CType(Me.pbBW1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.tbBW2.ResumeLayout(False)
         CType(Me.pbBW2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.tbBrightness.ResumeLayout(False)
+        Me.tbBrightness.PerformLayout()
+        CType(Me.barBrightness, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbBrightness, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.tbContrast.ResumeLayout(False)
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -218,4 +318,12 @@ Partial Class frmPointOperation
     Friend WithEvents tbBW2 As TabPage
     Friend WithEvents btnBW2 As Button
     Friend WithEvents pbBW2 As PictureBox
+    Friend WithEvents tbBrightness As TabPage
+    Friend WithEvents btnBrightness As Button
+    Friend WithEvents pbBrightness As PictureBox
+    Friend WithEvents tbContrast As TabPage
+    Friend WithEvents Button2 As Button
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents barBrightness As TrackBar
+    Friend WithEvents txtBrightness As TextBox
 End Class
