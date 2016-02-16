@@ -29,24 +29,30 @@ Partial Class frmPointOperation
         Me.tabGrayscale = New System.Windows.Forms.TabPage()
         Me.btnGrayscale = New System.Windows.Forms.Button()
         Me.pbGrayscale = New System.Windows.Forms.PictureBox()
-        Me.tbBW = New System.Windows.Forms.TabPage()
-        Me.btnBW = New System.Windows.Forms.Button()
-        Me.pbBW = New System.Windows.Forms.PictureBox()
+        Me.tbBW1 = New System.Windows.Forms.TabPage()
+        Me.btnBW1 = New System.Windows.Forms.Button()
+        Me.pbBW1 = New System.Windows.Forms.PictureBox()
         Me.dlgBrowse = New System.Windows.Forms.OpenFileDialog()
+        Me.tbBW2 = New System.Windows.Forms.TabPage()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.tcPointOP.SuspendLayout()
         Me.tabOrigin.SuspendLayout()
         CType(Me.pbOrigin, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tabGrayscale.SuspendLayout()
         CType(Me.pbGrayscale, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.tbBW.SuspendLayout()
-        CType(Me.pbBW, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.tbBW1.SuspendLayout()
+        CType(Me.pbBW1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.tbBW2.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'tcPointOP
         '
         Me.tcPointOP.Controls.Add(Me.tabOrigin)
         Me.tcPointOP.Controls.Add(Me.tabGrayscale)
-        Me.tcPointOP.Controls.Add(Me.tbBW)
+        Me.tcPointOP.Controls.Add(Me.tbBW1)
+        Me.tcPointOP.Controls.Add(Me.tbBW2)
         Me.tcPointOP.Location = New System.Drawing.Point(12, 12)
         Me.tcPointOP.Name = "tcPointOP"
         Me.tcPointOP.SelectedIndex = 0
@@ -113,38 +119,67 @@ Partial Class frmPointOperation
         Me.pbGrayscale.TabIndex = 1
         Me.pbGrayscale.TabStop = False
         '
-        'tbBW
+        'tbBW1
         '
-        Me.tbBW.Controls.Add(Me.btnBW)
-        Me.tbBW.Controls.Add(Me.pbBW)
-        Me.tbBW.Location = New System.Drawing.Point(4, 25)
-        Me.tbBW.Name = "tbBW"
-        Me.tbBW.Size = New System.Drawing.Size(950, 600)
-        Me.tbBW.TabIndex = 2
-        Me.tbBW.Text = "Hitam Putih"
-        Me.tbBW.UseVisualStyleBackColor = True
+        Me.tbBW1.Controls.Add(Me.btnBW1)
+        Me.tbBW1.Controls.Add(Me.pbBW1)
+        Me.tbBW1.Location = New System.Drawing.Point(4, 25)
+        Me.tbBW1.Name = "tbBW1"
+        Me.tbBW1.Size = New System.Drawing.Size(950, 600)
+        Me.tbBW1.TabIndex = 2
+        Me.tbBW1.Text = "Hitam Putih 1"
+        Me.tbBW1.UseVisualStyleBackColor = True
         '
-        'btnBW
+        'btnBW1
         '
-        Me.btnBW.Location = New System.Drawing.Point(869, 563)
-        Me.btnBW.Name = "btnBW"
-        Me.btnBW.Size = New System.Drawing.Size(75, 23)
-        Me.btnBW.TabIndex = 4
-        Me.btnBW.Text = "Proses"
-        Me.btnBW.UseVisualStyleBackColor = True
+        Me.btnBW1.Location = New System.Drawing.Point(869, 563)
+        Me.btnBW1.Name = "btnBW1"
+        Me.btnBW1.Size = New System.Drawing.Size(75, 23)
+        Me.btnBW1.TabIndex = 4
+        Me.btnBW1.Text = "Proses"
+        Me.btnBW1.UseVisualStyleBackColor = True
         '
-        'pbBW
+        'pbBW1
         '
-        Me.pbBW.Location = New System.Drawing.Point(6, 6)
-        Me.pbBW.Name = "pbBW"
-        Me.pbBW.Size = New System.Drawing.Size(938, 551)
-        Me.pbBW.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.pbBW.TabIndex = 3
-        Me.pbBW.TabStop = False
+        Me.pbBW1.Location = New System.Drawing.Point(6, 6)
+        Me.pbBW1.Name = "pbBW1"
+        Me.pbBW1.Size = New System.Drawing.Size(938, 551)
+        Me.pbBW1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pbBW1.TabIndex = 3
+        Me.pbBW1.TabStop = False
         '
         'dlgBrowse
         '
         Me.dlgBrowse.FileName = "OpenFileDialog1"
+        '
+        'tbBW2
+        '
+        Me.tbBW2.Controls.Add(Me.Button1)
+        Me.tbBW2.Controls.Add(Me.PictureBox1)
+        Me.tbBW2.Location = New System.Drawing.Point(4, 25)
+        Me.tbBW2.Name = "tbBW2"
+        Me.tbBW2.Size = New System.Drawing.Size(950, 600)
+        Me.tbBW2.TabIndex = 3
+        Me.tbBW2.Text = "Hitam Putih 2"
+        Me.tbBW2.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(869, 563)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 6
+        Me.Button1.Text = "Proses"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Location = New System.Drawing.Point(6, 6)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(938, 551)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 5
+        Me.PictureBox1.TabStop = False
         '
         'frmPointOperation
         '
@@ -161,8 +196,10 @@ Partial Class frmPointOperation
         CType(Me.pbOrigin, System.ComponentModel.ISupportInitialize).EndInit()
         Me.tabGrayscale.ResumeLayout(False)
         CType(Me.pbGrayscale, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.tbBW.ResumeLayout(False)
-        CType(Me.pbBW, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.tbBW1.ResumeLayout(False)
+        CType(Me.pbBW1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.tbBW2.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -175,7 +212,10 @@ Partial Class frmPointOperation
     Friend WithEvents dlgBrowse As OpenFileDialog
     Friend WithEvents pbGrayscale As PictureBox
     Friend WithEvents btnGrayscale As Button
-    Friend WithEvents tbBW As TabPage
-    Friend WithEvents btnBW As Button
-    Friend WithEvents pbBW As PictureBox
+    Friend WithEvents tbBW1 As TabPage
+    Friend WithEvents btnBW1 As Button
+    Friend WithEvents pbBW1 As PictureBox
+    Friend WithEvents tbBW2 As TabPage
+    Friend WithEvents Button1 As Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

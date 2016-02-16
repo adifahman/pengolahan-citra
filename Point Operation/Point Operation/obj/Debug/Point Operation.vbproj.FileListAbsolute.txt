@@ -9,3 +9,7 @@ F:\Pengolahan Citra\Point Operation\Point Operation\bin\Debug\Point Operation.pd
 F:\Pengolahan Citra\Point Operation\Point Operation\bin\Debug\Point Operation.xml
 F:\Pengolahan Citra\Point Operation\Point Operation\obj\Debug\Point Operation.exe
 F:\Pengolahan Citra\Point Operation\Point Operation\obj\Debug\Point Operation.pdb
+F:\Pengolahan Citra\github\Point Operation\Point Operation\bin\Debug\Point Operation.exe.config
+F:\Pengolahan Citra\github\Point Operation\Point Operation\obj\Debug\Point Operation.exe
+F:\Pengolahan Citra\github\Point Operation\Point Operation\obj\Debug\Point Operation.xml
+F:\Pengolahan Citra\github\Point Operation\Point Operation\obj\Debug\Point Operation.pdb
