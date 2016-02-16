@@ -32,10 +32,10 @@ Partial Class frmPointOperation
         Me.tbBW1 = New System.Windows.Forms.TabPage()
         Me.btnBW1 = New System.Windows.Forms.Button()
         Me.pbBW1 = New System.Windows.Forms.PictureBox()
-        Me.dlgBrowse = New System.Windows.Forms.OpenFileDialog()
         Me.tbBW2 = New System.Windows.Forms.TabPage()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.btnBW2 = New System.Windows.Forms.Button()
+        Me.pbBW2 = New System.Windows.Forms.PictureBox()
+        Me.dlgBrowse = New System.Windows.Forms.OpenFileDialog()
         Me.tcPointOP.SuspendLayout()
         Me.tabOrigin.SuspendLayout()
         CType(Me.pbOrigin, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -44,7 +44,7 @@ Partial Class frmPointOperation
         Me.tbBW1.SuspendLayout()
         CType(Me.pbBW1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tbBW2.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbBW2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'tcPointOP
@@ -148,14 +148,10 @@ Partial Class frmPointOperation
         Me.pbBW1.TabIndex = 3
         Me.pbBW1.TabStop = False
         '
-        'dlgBrowse
-        '
-        Me.dlgBrowse.FileName = "OpenFileDialog1"
-        '
         'tbBW2
         '
-        Me.tbBW2.Controls.Add(Me.Button1)
-        Me.tbBW2.Controls.Add(Me.PictureBox1)
+        Me.tbBW2.Controls.Add(Me.btnBW2)
+        Me.tbBW2.Controls.Add(Me.pbBW2)
         Me.tbBW2.Location = New System.Drawing.Point(4, 25)
         Me.tbBW2.Name = "tbBW2"
         Me.tbBW2.Size = New System.Drawing.Size(950, 600)
@@ -163,23 +159,27 @@ Partial Class frmPointOperation
         Me.tbBW2.Text = "Hitam Putih 2"
         Me.tbBW2.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btnBW2
         '
-        Me.Button1.Location = New System.Drawing.Point(869, 563)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "Proses"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnBW2.Location = New System.Drawing.Point(869, 563)
+        Me.btnBW2.Name = "btnBW2"
+        Me.btnBW2.Size = New System.Drawing.Size(75, 23)
+        Me.btnBW2.TabIndex = 6
+        Me.btnBW2.Text = "Proses"
+        Me.btnBW2.UseVisualStyleBackColor = True
         '
-        'PictureBox1
+        'pbBW2
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(6, 6)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(938, 551)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 5
-        Me.PictureBox1.TabStop = False
+        Me.pbBW2.Location = New System.Drawing.Point(6, 6)
+        Me.pbBW2.Name = "pbBW2"
+        Me.pbBW2.Size = New System.Drawing.Size(938, 551)
+        Me.pbBW2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pbBW2.TabIndex = 5
+        Me.pbBW2.TabStop = False
+        '
+        'dlgBrowse
+        '
+        Me.dlgBrowse.FileName = "OpenFileDialog1"
         '
         'frmPointOperation
         '
@@ -199,7 +199,7 @@ Partial Class frmPointOperation
         Me.tbBW1.ResumeLayout(False)
         CType(Me.pbBW1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.tbBW2.ResumeLayout(False)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbBW2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -216,6 +216,6 @@ Partial Class frmPointOperation
     Friend WithEvents btnBW1 As Button
     Friend WithEvents pbBW1 As PictureBox
     Friend WithEvents tbBW2 As TabPage
-    Friend WithEvents Button1 As Button
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents btnBW2 As Button
+    Friend WithEvents pbBW2 As PictureBox
 End Class

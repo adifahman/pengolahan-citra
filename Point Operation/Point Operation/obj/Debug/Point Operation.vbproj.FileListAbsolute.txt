@@ -13,3 +13,10 @@ F:\Pengolahan Citra\github\Point Operation\Point Operation\bin\Debug\Point Opera
 F:\Pengolahan Citra\github\Point Operation\Point Operation\obj\Debug\Point Operation.exe
 F:\Pengolahan Citra\github\Point Operation\Point Operation\obj\Debug\Point Operation.xml
 F:\Pengolahan Citra\github\Point Operation\Point Operation\obj\Debug\Point Operation.pdb
+F:\Pengolahan Citra\github\Point Operation\Point Operation\bin\Debug\Point Operation.exe
+F:\Pengolahan Citra\github\Point Operation\Point Operation\bin\Debug\Point Operation.pdb
+F:\Pengolahan Citra\github\Point Operation\Point Operation\bin\Debug\Point Operation.xml
+F:\Pengolahan Citra\github\Point Operation\Point Operation\obj\Debug\Point Operation.vbprojResolveAssemblyReference.cache
+F:\Pengolahan Citra\github\Point Operation\Point Operation\obj\Debug\Point_Operation.frmPointOperation.resources
+F:\Pengolahan Citra\github\Point Operation\Point Operation\obj\Debug\Point_Operation.Resources.resources
+F:\Pengolahan Citra\github\Point Operation\Point Operation\obj\Debug\Point Operation.vbproj.GenerateResource.Cache
