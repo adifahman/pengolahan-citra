@@ -41,9 +41,14 @@ Partial Class frmPointOperation
         Me.btnBrightness = New System.Windows.Forms.Button()
         Me.pbBrightness = New System.Windows.Forms.PictureBox()
         Me.tbContrast = New System.Windows.Forms.TabPage()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.txtContrast = New System.Windows.Forms.TextBox()
+        Me.barContrast = New System.Windows.Forms.TrackBar()
+        Me.btnContrast = New System.Windows.Forms.Button()
+        Me.pbContrast = New System.Windows.Forms.PictureBox()
         Me.dlgBrowse = New System.Windows.Forms.OpenFileDialog()
+        Me.tbInverse = New System.Windows.Forms.TabPage()
+        Me.btnInverse = New System.Windows.Forms.Button()
+        Me.pbInverse = New System.Windows.Forms.PictureBox()
         Me.tcPointOP.SuspendLayout()
         Me.tabOrigin.SuspendLayout()
         CType(Me.pbOrigin, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -57,7 +62,10 @@ Partial Class frmPointOperation
         CType(Me.barBrightness, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbBrightness, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tbContrast.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.barContrast, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbContrast, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.tbInverse.SuspendLayout()
+        CType(Me.pbInverse, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'tcPointOP
@@ -68,6 +76,7 @@ Partial Class frmPointOperation
         Me.tcPointOP.Controls.Add(Me.tbBW2)
         Me.tcPointOP.Controls.Add(Me.tbBrightness)
         Me.tcPointOP.Controls.Add(Me.tbContrast)
+        Me.tcPointOP.Controls.Add(Me.tbInverse)
         Me.tcPointOP.Location = New System.Drawing.Point(12, 12)
         Me.tcPointOP.Name = "tcPointOP"
         Me.tcPointOP.SelectedIndex = 0
@@ -207,7 +216,9 @@ Partial Class frmPointOperation
         '
         'txtBrightness
         '
+        Me.txtBrightness.Enabled = False
         Me.txtBrightness.Location = New System.Drawing.Point(823, 563)
+        Me.txtBrightness.MaxLength = 3
         Me.txtBrightness.Name = "txtBrightness"
         Me.txtBrightness.Size = New System.Drawing.Size(40, 22)
         Me.txtBrightness.TabIndex = 11
@@ -244,8 +255,10 @@ Partial Class frmPointOperation
         '
         'tbContrast
         '
-        Me.tbContrast.Controls.Add(Me.Button2)
-        Me.tbContrast.Controls.Add(Me.PictureBox2)
+        Me.tbContrast.Controls.Add(Me.txtContrast)
+        Me.tbContrast.Controls.Add(Me.barContrast)
+        Me.tbContrast.Controls.Add(Me.btnContrast)
+        Me.tbContrast.Controls.Add(Me.pbContrast)
         Me.tbContrast.Location = New System.Drawing.Point(4, 25)
         Me.tbContrast.Name = "tbContrast"
         Me.tbContrast.Size = New System.Drawing.Size(950, 600)
@@ -253,27 +266,77 @@ Partial Class frmPointOperation
         Me.tbContrast.Text = "Contrast"
         Me.tbContrast.UseVisualStyleBackColor = True
         '
-        'Button2
+        'txtContrast
         '
-        Me.Button2.Location = New System.Drawing.Point(869, 563)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 8
-        Me.Button2.Text = "Proses"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.txtContrast.Enabled = False
+        Me.txtContrast.Location = New System.Drawing.Point(823, 563)
+        Me.txtContrast.MaxLength = 3
+        Me.txtContrast.Name = "txtContrast"
+        Me.txtContrast.Size = New System.Drawing.Size(40, 22)
+        Me.txtContrast.TabIndex = 12
+        Me.txtContrast.Text = "0"
         '
-        'PictureBox2
+        'barContrast
         '
-        Me.PictureBox2.Location = New System.Drawing.Point(6, 6)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(938, 551)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 7
-        Me.PictureBox2.TabStop = False
+        Me.barContrast.BackColor = System.Drawing.Color.White
+        Me.barContrast.LargeChange = 1
+        Me.barContrast.Location = New System.Drawing.Point(6, 563)
+        Me.barContrast.Maximum = 5
+        Me.barContrast.Name = "barContrast"
+        Me.barContrast.Size = New System.Drawing.Size(811, 56)
+        Me.barContrast.TabIndex = 11
+        Me.barContrast.TickStyle = System.Windows.Forms.TickStyle.None
+        '
+        'btnContrast
+        '
+        Me.btnContrast.Location = New System.Drawing.Point(869, 563)
+        Me.btnContrast.Name = "btnContrast"
+        Me.btnContrast.Size = New System.Drawing.Size(75, 23)
+        Me.btnContrast.TabIndex = 8
+        Me.btnContrast.Text = "Proses"
+        Me.btnContrast.UseVisualStyleBackColor = True
+        '
+        'pbContrast
+        '
+        Me.pbContrast.Location = New System.Drawing.Point(6, 6)
+        Me.pbContrast.Name = "pbContrast"
+        Me.pbContrast.Size = New System.Drawing.Size(938, 551)
+        Me.pbContrast.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pbContrast.TabIndex = 7
+        Me.pbContrast.TabStop = False
         '
         'dlgBrowse
         '
         Me.dlgBrowse.FileName = "OpenFileDialog1"
+        '
+        'tbInverse
+        '
+        Me.tbInverse.Controls.Add(Me.btnInverse)
+        Me.tbInverse.Controls.Add(Me.pbInverse)
+        Me.tbInverse.Location = New System.Drawing.Point(4, 25)
+        Me.tbInverse.Name = "tbInverse"
+        Me.tbInverse.Size = New System.Drawing.Size(950, 600)
+        Me.tbInverse.TabIndex = 6
+        Me.tbInverse.Text = "Inverse"
+        Me.tbInverse.UseVisualStyleBackColor = True
+        '
+        'btnInverse
+        '
+        Me.btnInverse.Location = New System.Drawing.Point(869, 563)
+        Me.btnInverse.Name = "btnInverse"
+        Me.btnInverse.Size = New System.Drawing.Size(75, 23)
+        Me.btnInverse.TabIndex = 3
+        Me.btnInverse.Text = "Proses"
+        Me.btnInverse.UseVisualStyleBackColor = True
+        '
+        'pbInverse
+        '
+        Me.pbInverse.Location = New System.Drawing.Point(6, 6)
+        Me.pbInverse.Name = "pbInverse"
+        Me.pbInverse.Size = New System.Drawing.Size(938, 551)
+        Me.pbInverse.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pbInverse.TabIndex = 2
+        Me.pbInverse.TabStop = False
         '
         'frmPointOperation
         '
@@ -299,7 +362,11 @@ Partial Class frmPointOperation
         CType(Me.barBrightness, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbBrightness, System.ComponentModel.ISupportInitialize).EndInit()
         Me.tbContrast.ResumeLayout(False)
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.tbContrast.PerformLayout()
+        CType(Me.barContrast, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbContrast, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.tbInverse.ResumeLayout(False)
+        CType(Me.pbInverse, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -322,8 +389,13 @@ Partial Class frmPointOperation
     Friend WithEvents btnBrightness As Button
     Friend WithEvents pbBrightness As PictureBox
     Friend WithEvents tbContrast As TabPage
-    Friend WithEvents Button2 As Button
-    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents btnContrast As Button
+    Friend WithEvents pbContrast As PictureBox
     Friend WithEvents barBrightness As TrackBar
     Friend WithEvents txtBrightness As TextBox
+    Friend WithEvents txtContrast As TextBox
+    Friend WithEvents barContrast As TrackBar
+    Friend WithEvents tbInverse As TabPage
+    Friend WithEvents btnInverse As Button
+    Friend WithEvents pbInverse As PictureBox
 End Class
