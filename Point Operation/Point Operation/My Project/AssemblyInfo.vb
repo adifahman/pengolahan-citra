@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Point Operation")>
+<Assembly: AssemblyTitle("Point Operation PC")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Point Operation")>
+<Assembly: AssemblyProduct("Point Operation PC")>
 <Assembly: AssemblyCopyright("Copyright ©  2016")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("eb7f0fa8-120e-4484-9a52-cd2c230103a6")>
+<Assembly: Guid("636ec717-88d2-42f4-b9a7-292c64f017fc")>
 
 ' Version information for an assembly consists of the following four values:
 '

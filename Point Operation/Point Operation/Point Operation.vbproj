@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9109C4B5-206D-407B-AA1E-6027E23241C1}</ProjectGuid>
+    <ProjectGuid>{11A6847C-6DB4-4E40-9BB9-A2CA82EFD9CB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <StartupObject>Point_Operation.My.MyApplication</StartupObject>
     <RootNamespace>Point_Operation</RootNamespace>
@@ -72,11 +72,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmPointOperation.vb">
+    <Compile Include="frmPO.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPointOperation.Designer.vb">
-      <DependentUpon>frmPointOperation.vb</DependentUpon>
+    <Compile Include="frmPO.Designer.vb">
+      <DependentUpon>frmPO.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -96,8 +96,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmPointOperation.resx">
-      <DependentUpon>frmPointOperation.vb</DependentUpon>
+    <EmbeddedResource Include="frmPO.resx">
+      <DependentUpon>frmPO.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

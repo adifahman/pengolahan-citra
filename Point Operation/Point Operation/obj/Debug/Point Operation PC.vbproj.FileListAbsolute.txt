@@ -1,0 +1,11 @@
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\obj\Debug\Point Operation PC.vbprojResolveAssemblyReference.cache
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\obj\Debug\Point Operation PC.vbproj.GenerateResource.Cache
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\bin\Debug\Point Operation.exe.config
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\obj\Debug\Point_Operation.frmPO.resources
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\obj\Debug\Point_Operation.Resources.resources
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\obj\Debug\Point Operation.xml
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\bin\Debug\Point Operation.exe
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\bin\Debug\Point Operation.pdb
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\bin\Debug\Point Operation.xml
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\obj\Debug\Point Operation.exe
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\obj\Debug\Point Operation.pdb

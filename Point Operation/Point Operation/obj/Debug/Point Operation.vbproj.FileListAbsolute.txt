@@ -1,22 +1,21 @@
-F:\Pengolahan Citra\Point Operation\Point Operation\bin\Debug\Point Operation.exe.config
-F:\Pengolahan Citra\Point Operation\Point Operation\obj\Debug\Point Operation.vbprojResolveAssemblyReference.cache
-F:\Pengolahan Citra\Point Operation\Point Operation\obj\Debug\Point_Operation.frmPointOperation.resources
-F:\Pengolahan Citra\Point Operation\Point Operation\obj\Debug\Point_Operation.Resources.resources
-F:\Pengolahan Citra\Point Operation\Point Operation\obj\Debug\Point Operation.vbproj.GenerateResource.Cache
-F:\Pengolahan Citra\Point Operation\Point Operation\obj\Debug\Point Operation.xml
-F:\Pengolahan Citra\Point Operation\Point Operation\bin\Debug\Point Operation.exe
-F:\Pengolahan Citra\Point Operation\Point Operation\bin\Debug\Point Operation.pdb
-F:\Pengolahan Citra\Point Operation\Point Operation\bin\Debug\Point Operation.xml
-F:\Pengolahan Citra\Point Operation\Point Operation\obj\Debug\Point Operation.exe
-F:\Pengolahan Citra\Point Operation\Point Operation\obj\Debug\Point Operation.pdb
-F:\Pengolahan Citra\github\Point Operation\Point Operation\bin\Debug\Point Operation.exe.config
-F:\Pengolahan Citra\github\Point Operation\Point Operation\obj\Debug\Point Operation.exe
-F:\Pengolahan Citra\github\Point Operation\Point Operation\obj\Debug\Point Operation.xml
-F:\Pengolahan Citra\github\Point Operation\Point Operation\obj\Debug\Point Operation.pdb
-F:\Pengolahan Citra\github\Point Operation\Point Operation\bin\Debug\Point Operation.exe
-F:\Pengolahan Citra\github\Point Operation\Point Operation\bin\Debug\Point Operation.pdb
-F:\Pengolahan Citra\github\Point Operation\Point Operation\bin\Debug\Point Operation.xml
-F:\Pengolahan Citra\github\Point Operation\Point Operation\obj\Debug\Point Operation.vbprojResolveAssemblyReference.cache
-F:\Pengolahan Citra\github\Point Operation\Point Operation\obj\Debug\Point_Operation.frmPointOperation.resources
-F:\Pengolahan Citra\github\Point Operation\Point Operation\obj\Debug\Point_Operation.Resources.resources
-F:\Pengolahan Citra\github\Point Operation\Point Operation\obj\Debug\Point Operation.vbproj.GenerateResource.Cache
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\bin\Debug\Point Operation.exe.config
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\bin\Debug\Point Operation.exe
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\bin\Debug\Point Operation.pdb
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\bin\Debug\Point Operation.xml
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\obj\Debug\Point_Operation.frmPO.resources
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\obj\Debug\Point_Operation.Resources.resources
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\obj\Debug\Point Operation.vbproj.GenerateResource.Cache
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\obj\Debug\Point Operation.exe
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\obj\Debug\Point Operation.xml
+F:\Pengolahan Citra\Point Operation PC\Point Operation PC\obj\Debug\Point Operation.pdb
+F:\Point Operation\Point Operation\bin\Debug\Point Operation.exe.config
+F:\Point Operation\Point Operation\obj\Debug\Point Operation.exe
+F:\Point Operation\Point Operation\obj\Debug\Point Operation.xml
+F:\Point Operation\Point Operation\obj\Debug\Point Operation.pdb
+F:\Point Operation\Point Operation\bin\Debug\Point Operation.exe
+F:\Point Operation\Point Operation\bin\Debug\Point Operation.pdb
+F:\Point Operation\Point Operation\bin\Debug\Point Operation.xml
+F:\Point Operation\Point Operation\obj\Debug\Point Operation.vbprojResolveAssemblyReference.cache
+F:\Point Operation\Point Operation\obj\Debug\Point_Operation.frmPO.resources
+F:\Point Operation\Point Operation\obj\Debug\Point_Operation.Resources.resources
+F:\Point Operation\Point Operation\obj\Debug\Point Operation.vbproj.GenerateResource.Cache
